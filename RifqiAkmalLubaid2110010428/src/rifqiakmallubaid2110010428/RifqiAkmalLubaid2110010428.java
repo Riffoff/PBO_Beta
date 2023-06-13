@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package rifqiakmallubaid2110010428;
+import java.util.ArrayList;
+import form.frameUser;
 
 /**
  *
@@ -16,7 +18,7 @@ public class RifqiAkmalLubaid2110010428 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        User obj = new User();
+       /** User obj = new User();
         obj.setIDUSER("2110010428");
         obj.setUSERNAME("Rifqi Akmal Lubaid");
         obj.setPASSWORD("0987654321");
@@ -26,7 +28,10 @@ public class RifqiAkmalLubaid2110010428 {
                     +"\n Username : "+obj.getUSERNAME()
                     +"\n Password : " +obj.getPASSWORD()
                     +"\n Bioskop :" +obj.getBIOSKOP()
-                    +"\n Level : " +obj.getLVL());
+                    +"\n Level : " +obj.getLVL()); */
+       
+       new frameUser().setVisible(true);
+       
     }
     
 }
